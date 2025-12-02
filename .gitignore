@@ -1,0 +1,5 @@
+.stack-work/
+*~
+.bin
+data.txt
+result.txt

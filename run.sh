@@ -1,0 +1,1 @@
+cat s$1/data.txt | stack run s$1 && cat s$1/result.txt && echo ""

@@ -190,3 +190,24 @@ executables:
     dependencies:
       - aoc2025
 
+  s8a:
+    main: Main.hs
+    source-dirs: s8a
+    ghc-options:
+      - -O2
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - aoc2025
+
+  s8b:
+    main: Main.hs
+    source-dirs: s8b
+    ghc-options:
+      - -O2
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - aoc2025

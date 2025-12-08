@@ -202,3 +202,27 @@ executable s7b
       aoc2025
     , base >=4.7 && <5
   default-language: Haskell2010
+
+executable s8a
+  main-is: Main.hs
+  other-modules:
+      Paths_aoc2025
+  hs-source-dirs:
+      s8a
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -O2 -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aoc2025
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+executable s8b
+  main-is: Main.hs
+  other-modules:
+      Paths_aoc2025
+  hs-source-dirs:
+      s8b
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -O2 -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aoc2025
+    , base >=4.7 && <5
+  default-language: Haskell2010

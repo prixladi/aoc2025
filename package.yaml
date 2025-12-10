@@ -211,3 +211,25 @@ executables:
       - -with-rtsopts=-N
     dependencies:
       - aoc2025
+
+  s9a:
+    main: Main.hs
+    source-dirs: s9a
+    ghc-options:
+      - -O2
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - aoc2025
+
+  s9b:
+    main: Main.hs
+    source-dirs: s9b
+    ghc-options:
+      - -O2
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - aoc2025
